@@ -1,0 +1,77 @@
+id_geografia,dpto,dominio,ciudad_sinam,clase,clase_desc,tipo_zona
+1,Bolívar,RURAL,No aplica,2,Rural,Rural
+2,Bolívar,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+3,Caquetá,RURAL,No aplica,2,Rural,Rural
+4,Santander,RURAL,No aplica,2,Rural,Rural
+5,Santander,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+6,Quindío,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+7,Quindío,RURAL,No aplica,2,Rural,Rural
+8,Risaralda,RURAL,No aplica,2,Rural,Rural
+9,Risaralda,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+10,Antioquia,RURAL,No aplica,2,Rural,Rural
+11,Antioquia,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+12,Antioquia,MEDELLIN,MEDELLIN,1,Urbano,Ciudad capital
+13,Antioquia,MEDELLIN,No aplica,1,Urbano,Ciudad capital
+14,Atlántico,BARRANQUILLA,BARRANQUILLA,1,Urbano,Ciudad capital
+15,Atlántico,BARRANQUILLA,No aplica,1,Urbano,Ciudad capital
+16,Bogotá D.C.,BOGOTA,BOGOTA,1,Urbano,Ciudad capital
+17,Bolívar,CARTAGENA,CARTAGENA,1,Urbano,Ciudad capital
+18,Boyacá,TUNJA,TUNJA,1,Urbano,Ciudad capital
+19,Caldas,MANIZALES,No aplica,1,Urbano,Ciudad capital
+20,Caldas,MANIZALES,MANIZALES,1,Urbano,Ciudad capital
+21,Caquetá,FLORENCIA,FLORENCIA,1,Urbano,Ciudad capital
+22,Cauca,POPAYAN,POPAYAN,1,Urbano,Ciudad capital
+23,Cesar,VALLEDUPAR,VALLEDUPAR,1,Urbano,Ciudad capital
+24,Córdoba,MONTERIA,MONTERIA,1,Urbano,Ciudad capital
+25,Cundinamarca,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+26,Chocó,QUIBDO,QUIBDO,1,Urbano,Ciudad capital
+27,Huila,NEIVA,NEIVA,1,Urbano,Ciudad capital
+28,La Guajira,RIOHACHA,RIOHACHA,1,Urbano,Ciudad capital
+29,Magdalena,SANTA MARTA,SANTA MARTA,1,Urbano,Ciudad capital
+30,Meta,VILLAVICENCIO,VILLAVICENCIO,1,Urbano,Ciudad capital
+31,Nariño,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+32,Nariño,PASTO,PASTO,1,Urbano,Ciudad capital
+33,Norte de Santander,CUCUTA,CUCUTA,1,Urbano,Ciudad capital
+34,Norte de Santander,CUCUTA,No aplica,1,Urbano,Ciudad capital
+35,Quindío,ARMENIA,ARMENIA,1,Urbano,Ciudad capital
+36,Risaralda,PEREIRA,PEREIRA,1,Urbano,Ciudad capital
+37,Risaralda,PEREIRA,No aplica,1,Urbano,Ciudad capital
+38,Santander,BUCARAMANGA,BUCARAMANGA,1,Urbano,Ciudad capital
+39,Santander,BUCARAMANGA,No aplica,1,Urbano,Ciudad capital
+40,Sucre,SINCELEJO,SINCELEJO,1,Urbano,Ciudad capital
+41,Tolima,IBAGUE,IBAGUE,1,Urbano,Ciudad capital
+42,Valle del Cauca,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+43,Valle del Cauca,CALI,CALI,1,Urbano,Ciudad capital
+44,Valle del Cauca,CALI,No aplica,1,Urbano,Ciudad capital
+45,Atlántico,RURAL,No aplica,2,Rural,Rural
+46,Atlántico,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+47,Sucre,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+48,Norte de Santander,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+49,Norte de Santander,RURAL,No aplica,2,Rural,Rural
+50,La Guajira,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+51,Sucre,RURAL,No aplica,2,Rural,Rural
+52,Caquetá,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+53,Valle del Cauca,RURAL,No aplica,2,Rural,Rural
+54,Nariño,RURAL,No aplica,2,Rural,Rural
+55,Córdoba,RURAL,No aplica,2,Rural,Rural
+56,Tolima,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+57,Caldas,RURAL,No aplica,2,Rural,Rural
+58,La Guajira,RURAL,No aplica,2,Rural,Rural
+59,Magdalena,RURAL,No aplica,2,Rural,Rural
+60,Magdalena,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+61,Cundinamarca,RURAL,No aplica,2,Rural,Rural
+62,Boyacá,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+63,Boyacá,RURAL,No aplica,2,Rural,Rural
+64,Caldas,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+65,Córdoba,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+66,Chocó,RURAL,No aplica,2,Rural,Rural
+67,Chocó,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+68,Cauca,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+69,Cauca,RURAL,No aplica,2,Rural,Rural
+70,Tolima,RURAL,No aplica,2,Rural,Rural
+71,Cesar,RURAL,No aplica,2,Rural,Rural
+72,Cesar,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+73,Huila,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+74,Huila,RURAL,No aplica,2,Rural,Rural
+75,Meta,RESTO URBANO,No aplica,1,Urbano,Resto urbano
+76,Meta,RURAL,No aplica,2,Rural,Rural

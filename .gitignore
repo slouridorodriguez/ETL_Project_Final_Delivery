@@ -34,3 +34,7 @@ streamlit.log
 reports/*.html
 reports/*.png
 !streaming/data/eventos_prueba.csv.gz
+
+!data/viviendas_pdtos.csv
+!data/db_export/
+!data/db_export/*.csv
