@@ -1,0 +1,79 @@
+{
+  "modelo": "HistGradientBoosting",
+  "target": "pobre",
+  "descripcion_target": "1 si el hogar es pobre según el IPM",
+  "peso_entrenamiento": "fex_c",
+  "id_evento": "id_hogar",
+  "columnas_entrada": [
+    "codigo_departamento",
+    "personas",
+    "clase",
+    "material_paredes",
+    "material_pisos",
+    "acueducto_vivienda",
+    "alcantarillado_vivienda",
+    "pobreza_monetaria",
+    "ingreso_prom_dpto",
+    "pct_ocupados_dpto",
+    "pct_educ_superior_dpto",
+    "pct_sin_acueducto",
+    "pct_sin_alcantarillado",
+    "pct_piso_tierra",
+    "pct_rural_disperso"
+  ],
+  "features_cat": [
+    "codigo_departamento",
+    "clase",
+    "material_paredes",
+    "material_pisos"
+  ],
+  "features_num": [
+    "personas",
+    "sin_acueducto",
+    "sin_alcantarillado",
+    "pobreza_monetaria",
+    "ingreso_prom_dpto",
+    "pct_ocupados_dpto",
+    "pct_educ_superior_dpto",
+    "pct_sin_acueducto",
+    "pct_sin_alcantarillado",
+    "pct_piso_tierra",
+    "pct_rural_disperso"
+  ],
+  "excluidas_a_proposito": [
+    "pobre",
+    "ipm",
+    "fex_c",
+    "hogares_db",
+    "incidencia_ipm",
+    "ipm_promedio"
+  ],
+  "umbral": 0.1975416743612127,
+  "metricas_prueba": {
+    "roc_auc": 0.8485,
+    "pr_auc": 0.3866,
+    "pr_auc_base": 0.0817,
+    "f1": 0.4355,
+    "precision": 0.3574,
+    "recall": 0.5573,
+    "umbral": 0.1975,
+    "roc_auc_sin_contexto": 0.7963,
+    "roc_auc_departamentos_nuevos": 0.8107
+  },
+  "filas_entrenamiento": 69478,
+  "filas_prueba": 17370,
+  "semilla": 42,
+  "fecha_entrenamiento": "2026-11-24T03:40:58",
+  "versiones": {
+    "python": "3.13.18",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "joblib": "1.6.0"
+  },
+  "sha256_modelo": "17b5f4ded8f04a45faff25cad84dd25379eca7774df572f06c8ae4bbf86beea7",
+  "ids_streaming": {
+    "archivo": "ids_streaming.csv",
+    "hogares": 17370
+  }
+}
