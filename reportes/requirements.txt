@@ -3,5 +3,5 @@ numpy
 matplotlib
 scikit-learn   # la MISMA versión con la que se entrenó el modelo (solo para la sección 4)
 joblib
-sqlalchemy>=2
+sqlalchemy>=2,<2.1
 psycopg2-binary

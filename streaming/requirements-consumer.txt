@@ -2,7 +2,7 @@ confluent-kafka>=2.5
 pandas>=2.1
 numpy
 joblib
-sqlalchemy>=2
+sqlalchemy>=2,<2.1
 psycopg2-binary
 # scikit-learn se instala aparte con la MISMA versión con la que se entrenó el modelo
 # (modelo_pobreza_meta.json -> versiones -> scikit-learn); ver SKLEARN_VERSION en .env
