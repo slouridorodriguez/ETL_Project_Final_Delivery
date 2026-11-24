@@ -1,17 +1,5 @@
 # Datos de entrada
 
-Esta carpeta no se sube completa a GitHub por el tamaño de los archivos. Antes de levantar el proyecto con Docker hay que dejar aquí:
-
-```
-data/
-  viviendas_pdtos.csv
-  db_export/
-    dim_geografia.csv
-    dim_persona.csv
-    fact_personas.csv
-    fact_hogares.csv
-```
-
 `viviendas_pdtos.csv` es el CSV de viviendas (86.848 hogares) y `db_export/` tiene las tablas de la base de datos de personas y pobreza monetaria. La tercera fuente, la API del IPM, se consulta por internet en la dirección de `API_URL`.
 
 Enlace de descarga: https://drive.google.com/drive/folders/1Hh9hd5r0MctmWPgkJFVBsrwIxs5ECerI?usp=sharing
