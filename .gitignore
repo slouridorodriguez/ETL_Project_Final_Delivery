@@ -1,0 +1,36 @@
+# contraseñas y configuración local (los .example sí se suben)
+.env
+.env.*
+!.env.example
+!.env.servidor.example
+!.env.notebooks.example
+archivos_transferir/
+
+# datos pesados: se descargan aparte (ver data/README.md)
+data/*
+!data/.gitkeep
+!data/README.md
+etl_proyecto/
+staging/
+*.parquet
+*.db
+*.sqlite
+*.pkl
+
+# airflow y logs locales
+logs/
+
+# python y jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# streamlit
+streamlit.log
+
+# el reporte estático se genera; el respaldo del producer sí se sube
+reports/*.html
+reports/*.png
+!streaming/data/eventos_prueba.csv.gz

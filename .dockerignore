@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+*.parquet
+data/
+reports/
+notebooks/
+docs/
+graficas/
+diagramas/
+streamlit/
+models/*.joblib
+__pycache__/

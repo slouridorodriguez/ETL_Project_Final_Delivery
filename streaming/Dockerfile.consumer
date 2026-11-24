@@ -1,0 +1,19 @@
+# imagen del consumer del modelo. se construye desde la raíz del repositorio.
+# la versión de scikit-learn se lee de models/modelo_pobreza_meta.json; si se pasa SKLEARN_VERSION, manda esa.
+FROM python:3.12-slim
+
+ARG SKLEARN_VERSION=
+WORKDIR /app
+COPY streaming/requirements-consumer.txt streaming/requirements-consumer.txt
+COPY models/modelo_pobreza_meta.json /tmp/meta.json
+RUN pip install --no-cache-dir -r streaming/requirements-consumer.txt \
+ && V="${SKLEARN_VERSION:-$(python -c "import json; print(json.load(open('/tmp/meta.json'))['versiones']['scikit-learn'])")}" \
+ && echo "scikit-learn $V" \
+ && pip install --no-cache-dir "scikit-learn==$V"
+
+COPY src/ src/
+COPY streaming/consumer.py streaming/consumer.py
+
+ENV PYTHONUNBUFFERED=1
+# el modelo se monta como volumen en /app/models
+CMD ["python", "streaming/consumer.py"]

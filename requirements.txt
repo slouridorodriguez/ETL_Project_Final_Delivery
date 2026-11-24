@@ -1,0 +1,13 @@
+pandas>=2.1
+numpy
+pyarrow>=14
+requests
+sqlalchemy
+psycopg2-binary
+great-expectations>=1.0,<2
+matplotlib
+streamlit
+scipy
+plotly
+scikit-learn   # notebook 04_modelo; los contenedores toman la versión de models/modelo_pobreza_meta.json
+joblib

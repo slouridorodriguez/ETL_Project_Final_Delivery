@@ -1,0 +1,7 @@
+pandas>=2.1
+numpy
+matplotlib
+scikit-learn   # la MISMA versión con la que se entrenó el modelo (solo para la sección 4)
+joblib
+sqlalchemy>=2
+psycopg2-binary
