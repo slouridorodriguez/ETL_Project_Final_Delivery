@@ -84,8 +84,6 @@ flowchart LR
 
 <!-- Agregar aquí el diagrama final en PNG cuando esté listo, por ejemplo diagramas/Diagrama_Arquitectura-Entrega_Final.png -->
 
-Los diagramas de la entrega 2 (arquitectura, galaxia y grafo del DAG) siguen en `diagramas/`.
-
 Por qué está diseñada así:
 - Tres ramas, una por fuente. Cada fuente tiene formato y fallos distintos, así que se ve en cuál falló el DAG y solo se reintenta esa lectura.
 - La validación ocurre dos veces: después de limpiar cada fuente y después de cada merge. La primera frena los datos malos de origen y la segunda comprueba que la unión sea coherente antes de cargar.
