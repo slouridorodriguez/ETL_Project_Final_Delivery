@@ -63,26 +63,8 @@ Entrega final. El merge por departamento era correcto pero tenía muy pocas fila
 
 ## 3. Arquitectura y flujo
 
-```mermaid
-flowchart LR
-    A[API del IPM] --> D
-    B[CSV de viviendas] --> D
-    C[Base de personas GEIH] --> D
-    subgraph D[Airflow: pobreza_dag, 14 tareas]
-        direction LR
-        E[read y transform de cada fuente] --> F[merge] --> G[quality_check con Great Expectations] --> H[load]
-    end
-    H --> W[(Postgres: warehouse)]
-    W --> R[Reporte estático]
-    W --> P[Producer Kafka]
-    P -->|hogares_entrena_modelo| K[(Kafka)]
-    K --> Q[Consumer con modelo_pobreza.joblib]
-    Q -->|hogares_etl_resultado| K
-    Q --> T[(predicciones_hogar)]
-    K -->|hogares_etl_resultado| S[Dashboard en vivo]
-```
+<img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/738b4b26-91e8-4e45-baa7-2cbd3c559876" />
 
-<!-- Agregar aquí el diagrama final en PNG cuando esté listo, por ejemplo diagramas/Diagrama_Arquitectura-Entrega_Final.png -->
 
 Por qué está diseñada así:
 - Tres ramas, una por fuente. Cada fuente tiene formato y fallos distintos, así que se ve en cuál falló el DAG y solo se reintenta esa lectura.
