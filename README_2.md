@@ -169,7 +169,7 @@ Todo vive en PostgreSQL, base `warehouse`.
 - `split_modelo`: ids de los hogares de prueba. La crea el servicio `warehouse-init` desde `models/ids_streaming.csv`.
 - `predicciones_hogar`: la llena el consumer, una fila por mensaje procesado.
 
-El modelo de galaxia de la entrega 1 (`fact_hogares`, `fact_personas` y sus dimensiones) se conserva sin cambios.
+El modelo de galaxia de la entrega 1 (`fact_hogares`, `fact_personas` y sus dimensiones) se conserva sin cambios añadiendo lo nuevo.
 
 La métrica que se publica en Kafka es la probabilidad de que un hogar sea pobre según el IPM. El grano es un hogar.
 
