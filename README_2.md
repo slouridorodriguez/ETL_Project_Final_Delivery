@@ -399,7 +399,7 @@ python tests/test_streaming.py
 ├── dashboard/       dashboard en vivo (Streamlit)
 ├── reportes/        código del reporte estático
 ├── reports/         logs de validación, hallazgos del EDA y reporte generado
-├── streamlit/       app analítica de la entrega 2
+├── streamlit_entrega2/       app analítica de la entrega 2
 ├── src/             variables de entrada del modelo y utilidades de Kafka
 ├── models/          modelo serializado, metadatos e ids de prueba
 ├── notebooks/       EDA, merge, modelo y Streamlit analítico
@@ -414,10 +414,11 @@ Notebooks incluidos, con las salidas como evidencia de la ejecución:
 - `01_fuente_api_ipm_def`, `02_fuente_csv_def` y `03_fuente_base_de_datos_def`: EDA, transformación y validación de cada fuente.
 - `merge_definitivo`: merge, DAG y reporte de la entrega 2.
 - `04_modelo`: preparación, entrenamiento y evaluación del modelo.
-- `streamlit_visualizaciones_definitivo`: app analítica de la entrega 2.
+- `streamlit_visualizaciones_reporte`: app analítica de la entrega 2.
 
 Archivos de configuración:
 - `.env.example`: variables opcionales para el compose (velocidad del producer, usuario de Airflow).
 - `.env.servidor.example`: variables para usar el broker del servidor.
+- `.env.servidor`: variables usadas el broker del servidor.
 - `.env.notebooks.example`: variables de la entrega 2 para Colab o ejecución sin Docker. No copiarlo como `.env` si se va a usar Docker Compose.
 - `.gitignore`: excluye contraseñas, archivos intermedios y el reporte generado. Deja pasar los datos de `data/`, los `.example` y el modelo.
