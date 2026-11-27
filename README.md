@@ -11,6 +11,35 @@ Integrantes:
 
 ---
 
+## Índice
+
+- [1. Visión general y objetivos](#1-visión-general-y-objetivos)
+  - [Cómo creció el proyecto](#cómo-creció-el-proyecto)
+  - [Preguntas que responde el reporte estático](#preguntas-que-responde-el-reporte-estático)
+- [2. Stack tecnológico](#2-stack-tecnológico)
+- [3. Arquitectura y flujo](#3-arquitectura-y-flujo)
+- [4. Fuentes de datos y cómo se combinan](#4-fuentes-de-datos-y-cómo-se-combinan)
+  - [Por qué primero por departamento y después por hogar](#por-qué-primero-por-departamento-y-después-por-hogar)
+- [5. Pipeline ETL](#5-pipeline-etl)
+- [6. DAG de Airflow (`pobreza_dag`)](#6-dag-de-airflow-pobreza_dag)
+- [7. Calidad de datos](#7-calidad-de-datos)
+- [8. Modelo dimensional (warehouse)](#8-modelo-dimensional-warehouse)
+- [9. Modelo de ML](#9-modelo-de-ml)
+- [10. Streaming con Kafka](#10-streaming-con-kafka)
+  - [Broker del servidor](#broker-del-servidor)
+- [11. Reporte estático](#11-reporte-estático)
+- [12. Valor que genera la arquitectura](#12-valor-que-genera-la-arquitectura)
+- [13. Cómo ejecutarlo](#13-cómo-ejecutarlo)
+  - [Comprobar que funcionó](#comprobar-que-funcionó)
+  - [Apagar](#apagar)
+  - [Si algo falla](#si-algo-falla)
+  - [Sin Docker](#sin-docker)
+- [14. Supuestos y decisiones](#14-supuestos-y-decisiones)
+- [15. Limitaciones](#15-limitaciones)
+- [16. Estructura del repositorio](#16-estructura-del-repositorio)
+
+---
+
 ## 1. Visión general y objetivos
 
 El proyecto trabaja sobre el ODS 1 (Fin de la pobreza). Analiza la pobreza monetaria, la pobreza extrema y la pobreza multidimensional (IPM) en Colombia con datos oficiales del DANE y una API propia, y en esta entrega final agrega un modelo que predice si un hogar es pobre.
