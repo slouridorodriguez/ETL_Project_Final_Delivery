@@ -35,8 +35,6 @@ Entrega 2. Se sumaron dos fuentes (API del IPM y CSV de viviendas), un DAG de Ai
 
 Entrega final. El merge por departamento era correcto pero tenía muy pocas filas para entrenar un modelo (solo 24 departamentos tenían las tres fuentes). Por eso se armó un segundo merge, a nivel de hogar, con unas 87.000 filas. El DAG pasó a 14 tareas, el warehouse pasó a PostgreSQL dentro de Docker y se agregaron el modelo, Kafka, el dashboard en vivo y el reporte estático.
 
-El texto completo de la entrega 2 (fuentes, verificación cruzada y supuestos) está en [docs/entrega2.md](docs/entrega2.md).
-
 ### Preguntas que responde el reporte estático
 
 1. ¿Dónde se concentra la pobreza multidimensional?
