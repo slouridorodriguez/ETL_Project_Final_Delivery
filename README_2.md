@@ -296,7 +296,7 @@ Los dos usos salen del mismo warehouse y de las mismas definiciones de datos, so
 
 Requisitos: Docker con Docker Compose v2 (Docker Desktop en Windows y Mac), unos 6 GB de memoria disponibles para Docker y conexión a internet, porque una de las fuentes es una API. En Windows con WSL2 conviene subir la memoria en el archivo `.wslconfig`.
 
-1. Descargar los datos y dejarlos en `data/` como dice [data/README.md](data/README.md): `viviendas_pdtos.csv` y la carpeta `db_export/`.
+1. Descargar los datos y dejarlos en `data/` como dice [data/README.md](data/README.md): `viviendas_pdtos.csv` y la carpeta `db_export/`, actualmente en este repositorio ya están, entonces este paso no es necesario, si no estuvieran esos archivos, descargarlos y dejarlos en `data/`.
 2. Confirmar que `models/` tiene `modelo_pobreza.joblib`, `modelo_pobreza_meta.json` e `ids_streaming.csv`.
 3. Desde la raíz del repositorio:
 
