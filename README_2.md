@@ -298,7 +298,8 @@ Requisitos: Docker con Docker Compose v2 (Docker Desktop en Windows y Mac), unos
 
 1. Descargar los datos y dejarlos en `data/` como dice [data/README.md](data/README.md): `viviendas_pdtos.csv` y la carpeta `db_export/`, actualmente en este repositorio ya están, entonces este paso no es necesario, si no estuvieran esos archivos, descargarlos y dejarlos en `data/`.
 2. Confirmar que `models/` tiene `modelo_pobreza.joblib`, `modelo_pobreza_meta.json` e `ids_streaming.csv`.
-3. Desde la raíz del repositorio:
+3. Realizar (git clone https://github.com/slouridorodriguez/ETL_Project_Final_Delivery.git) desde la terminal en PowerShell.
+4. Desde la raíz del repositorio:
 
 ```
 docker compose up --build
