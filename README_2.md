@@ -256,9 +256,9 @@ Dashboard en vivo (`dashboard/app.py`): es otro consumer de `hogares_etl_resulta
 
 El stream es simulado: los hogares ya existen en el warehouse y se publican con una pausa corta. No se implementó captura de cambios (CDC).
 
-### Broker del servidor del curso
+### Broker del servidor 
 
-Para usar el broker compartido en vez del Kafka del compose, copiar `.env.servidor.example` a `.env.servidor` y correr:
+Para usar el broker en vez del Kafka del compose, copiar `.env.servidor.example` a `.env.servidor` y correr:
 
 ```
 docker compose --env-file .env.servidor up --build --no-deps producer consumer dashboard
