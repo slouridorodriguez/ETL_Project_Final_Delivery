@@ -143,12 +143,8 @@ Las funciones están en `dags/pobreza_dag.py`, que trae todo el código y no dep
 
 El DAG tiene 14 tareas. La primera rama es la de la entrega 2 y la segunda es nueva:
 
-```
-read_api ──► transform_api ──┐
-read_csv ──► transform_csv ──┼─► merge ─► quality_check ─► load ─► store
-read_db  ──► transform_db  ──┘                  │
-                                                └─► merge_hogar ─► quality_check_hogar ─► load_hogar ─► store_hogar
-```
+<img width="1463" height="276" alt="image" src="https://github.com/user-attachments/assets/5a868bdf-9997-4d2b-b651-5025be1fea27" />
+
 
 La primera parte deja la tabla `merge_departamento`. La segunda une el IPM con el CSV por hogar, valida y carga `fact_hogar_ipm`, `contexto_departamento` y la vista `vw_dataset_prediccion`. Es un superconjunto del DAG anterior: no se perdió nada.
 
